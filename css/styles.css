@@ -141,3 +141,67 @@ a {
 a:hover{
   color: #EAF6F6;
 }
+@media (max-width: 1028px) {
+  body {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  h2, h3 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 0 20px;
+  }
+
+  .profile-pic {
+    width: 40%;
+  }
+  .top-cloud{
+    width: 25%;
+    right: 10%;
+  }
+.mountain-pic{
+  width: 75%;
+}
+.bottom-cloud{
+  width: 25%;
+  left: 10%;
+}
+  .intro {
+    width: 100%;
+  }
+
+  .web {
+    width: 50%;
+    float: none;
+  }
+
+  .pro {
+    float: none;
+    width: 50%;
+  }
+
+  .skill-row {
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    font-size: 2rem;
+  }
+
+  .contact-msg {
+    width: 100%;
+  }
+
+  .footer-link {
+    margin: 10px 50px;
+  }
+}
